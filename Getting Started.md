@@ -9,7 +9,7 @@
 ## Setting the scene
 - Choose the "Main Camera" in the Heirarchy panel (left side of the Scene window).
 - In the Inspector panel modify the camera's position into (0,0,0)
-	[[https://github.com/angelicaCruz/Tutorial/blob/master/camera1.png]]
+	<img src="https://github.com/angelicaCruz/Tutorial/blob/master/camera1.png">
 - Find "Clear Flags" and change it's value from Skybox to Solid Color.
 - Change the "Background" to black by clicking the box and change RGBA values to 0.
 	Remember: black background will appear transparent in Hololens.
