@@ -12,22 +12,31 @@
 <p align="left">
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/camera1.png">
 </p>
+
 - Find "Clear Flags" and change it's value from Skybox to Solid Color.
 - Change the "Background" to black by clicking the box and change RGBA values to 0.
 	Remember: black background will appear transparent in Hololens.
-	(image: camera2)
+<p align="left">	
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/camera2.png">
+</p>
 - Finally save the scene in order to make changes permanent.
 
-Adding METool kit
-- open the the previously downloaded METool Kit. 
-- find and choose the following folders: DataMesh, Resources and Streaming assets.
+## Adding METool kit
+- Open the the previously downloaded METool Kit. 
+- Find and choose the following folders: **DataMesh, Resources and Streaming assets**.
 
-project Settings
-- open Edit -> Project Settings -> Quality
-	(image: settings1)
-- in the Inspector Panel go under Window Store icon. Click on the Default arrow and choose
+## Project Settings
+- Open **Edit -> Project Settings -> Quality**
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings1.png">
+</p>
+
+- In the Inspector Panel go under **Window Store** icon. Click on the Default arrow and choose
 	Fastest. You will see a green check right under Windows Store icon.
-	(image: settings2)
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings2.png">
+</p>
+
 - Find 'Other' under the same panel and change 'V Sync Count' value to Don't Sync.
 	(image: settings3)a
 
