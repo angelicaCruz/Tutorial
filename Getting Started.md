@@ -3,7 +3,7 @@
 - Open unity and choose "New" to create new unity project. Call the project "SampleProject".
 - Make sure  D3D is chosen 
 - Choose a location for the project. 
-	Suggestion : choose the Desktop as destination for the project's folder.
+  Suggestion : choose the Desktop as destination for the project's folder.
 - Choose create project and wait for Unity to complete the task. 
 
 ## Setting the scene
@@ -39,7 +39,6 @@
 </p>
 
 - Find **'Other'** under the same panel and change 'V Sync Count' value to Don't Sync.
-	(image: settings3)
 <p align="left">
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings3.png">
 </p>
@@ -53,9 +52,8 @@
 </p>
 
 - Click **'Player Settings'** and go to the inspector panel.
-- In the inspector Panel find **'Other Settings'** section, go to Optimization and change
+- In the Inspector Panel find **'Other Settings'** section, go to Optimization and change
 API Compatibility level to .NET 2.0
-	(image; setings6)
 <p align="left">
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings6.png">
 </p>
