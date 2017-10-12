@@ -123,7 +123,7 @@ Server_Port = 8848
 
               case 2:
                   //cube turns blue
-                  cube.GetComponent<MeshRenderer>().material.color = Color.red;
+                  cube.GetComponent<MeshRenderer>().material.color = Color.blue;
                   break;
 
               //section2: ANCHOR section
