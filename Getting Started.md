@@ -1,15 +1,15 @@
-## Creating a Unity Project for Hololens
+# Creating a Unity Project for Hololens
 
  -Open unity and choose "New" to create new unity project. Call the project "SampleProject".
 - Make sure  3d3 is chosen 
-- choose a location for the project. 
+- Choose a location for the project. 
 	Suggestion : choose the Desktop as destination for the project's folder.
-- choose create project and wait for Unity to complete the task. 
+- Choose create project and wait for Unity to complete the task. 
 
-Setting the scene
-- choose the "Main Camera" in the Heirarchy panel (left side of the Scene window).
-- in the Inspector panel modify the camera's position into (0,0,0)
-	(image: camera1)
+## Setting the scene
+- Choose the "Main Camera" in the Heirarchy panel (left side of the Scene window).
+- In the Inspector panel modify the camera's position into (0,0,0)
+	[[https://github.com/angelicaCruz/Tutorial/blob/master/camera1.png]]
 - Find "Clear Flags" and change it's value from Skybox to Solid Color.
 - Change the "Background" to black by clicking the box and change RGBA values to 0.
 	Remember: black background will appear transparent in Hololens.
