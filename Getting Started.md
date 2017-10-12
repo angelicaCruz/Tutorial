@@ -127,6 +127,6 @@ but the Hololens' Ip address must be provided
 </p>
 
 The Hololens Ip address is in 
-**Settings -> Network & Internet -> advance option -> Ipv4 address**
+**Settings -> Network & Internet -> Advance option -> Ipv4 address**
 
 In the next pages, we will integrate METoolKit and Unity Project.
