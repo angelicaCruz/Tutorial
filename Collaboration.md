@@ -131,7 +131,7 @@ Server_Port = 8848
               //COLLABORATION
               case 3:
                   cube.GetComponent<MeshRenderer>().material.color = Color.red;
-                  cube.transform.rotation = new Quaternion(0, 30, 0, 0);
+                  cube.transform.Rotate(new Vector3(0,30,0));
                   break;
 
               case 4:
