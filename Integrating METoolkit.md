@@ -56,8 +56,6 @@ METoolkit folder after unzipping it.
     using DataMesh.AR;
     public class MainApp : MonoBehaviour
     {
-      // Use this method to initialize
-      void Start()
       {
         StartCoroutine(WaitForInit());
       }
