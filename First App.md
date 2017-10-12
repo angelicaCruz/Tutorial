@@ -159,3 +159,10 @@ public class MainApp : MonoBehaviour
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/anchor1.png">
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/anchor2.png">
 </p>
+
+- Simulate in Unity: for Gaze, hold the right button of the mouse and move the mouse.
+  Follow the suggestions to simulate gestures.
+- Build and deploy application on Hololens.
+- Third air tap will show the anchoe bound box, tap again to show the anchor related UI,
+  Gaze to the selected action and then Air tap to start manipulation or navigation.
+- To end anchor manipulation, direct Gaze somewhere out of the anchor box.
