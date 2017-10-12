@@ -24,6 +24,7 @@
 ## Adding METool kit
 - Open the the previously downloaded METool Kit. 
 - Find and choose the following folders: **DataMesh, Resources and Streaming assets**.
+- Drag them in Unity under **Assets** in Project panel.
 
 ## Project Settings
 - Open **Edit -> Project Settings -> Quality**
@@ -37,25 +38,35 @@
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings2.png">
 </p>
 
-- Find 'Other' under the same panel and change 'V Sync Count' value to Don't Sync.
-	(image: settings3)a
+- Find **'Other'** under the same panel and change 'V Sync Count' value to Don't Sync.
+	(image: settings3)
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings3.png">
+</p>
 
-Build Settings
-- open File -> Build Settings -> Player Settings
-- Click on "Add Open Scene" in order to add the scene created before. 
-- with the chosen platform change Architecture vlaue in x86_64
-	(image: settings4)
-- click 'Player Settings' and go to the inspector panel.
-- In the inspector Panel find 'Other Settings' section, go to Optimization and change
-	API Compatibility level to .NET 2.0
+## Build Settings
+- Open **File -> Build Settings -> Player Settings**.
+- Click on **"Add Open Scene"** in order to add the scene created before. 
+- With the chosen platform, change **Architecture** value in **x86_64**
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings4.png">
+</p>
+
+- Click **'Player Settings'** and go to the inspector panel.
+- In the inspector Panel find **'Other Settings'** section, go to Optimization and change
+API Compatibility level to .NET 2.0
 	(image; setings6)
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings6.png">
+</p>
+
 - Re open Build Settings, choose Windows Store under Platform and click Switch Platform.
-	(if done, the unity icon must be beside Windows Store)
-	On the right side, do as follows:
-	SDK -> Universal10
+(if done, the unity icon must be beside Windows Store)
+On the right side, do as follows:
+	**SDK -> Universal10
 	Target device -> Hololens
 	UWP Build Type -> D3D
-	chech Unit C# Projects 
+	chech Unit C# Projects** 
 	(image: settings7)
 - Click on the Player Settings -> Other Settings.
 	Check Virtual Reality Supported and Windows Holographic will appear as the default SDK.
