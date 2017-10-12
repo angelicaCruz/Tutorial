@@ -161,3 +161,5 @@ Server_Port = 8848
       }
   }
   ```
+- Save the modified script.
+- Build project and deploy pn Hololens.
