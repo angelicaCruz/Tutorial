@@ -9,7 +9,7 @@
 ## Setting the scene
 - Choose the "Main Camera" in the Heirarchy panel (left side of the Scene window).
 - In the Inspector panel modify the camera's position into (0,0,0)
-<p align="center">
+<p align="left">
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/camera1.png">
 </p>
 - Find "Clear Flags" and change it's value from Skybox to Solid Color.
