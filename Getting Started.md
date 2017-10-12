@@ -122,7 +122,6 @@ application made with Unity,
 
 It is also possible to have **Local Machine -> Remote Machine**.
 but the Hololens' Ip address must be provided
-(image: build2.2)
 <p align="left">
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/integration2.2.png">
 </p>
