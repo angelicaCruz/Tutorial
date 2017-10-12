@@ -63,45 +63,71 @@ API Compatibility level to .NET 2.0
 - Re open Build Settings, choose Windows Store under Platform and click Switch Platform.
 (if done, the unity icon must be beside Windows Store)
 On the right side, do as follows:
-	**SDK -> Universal10
+	```
+	SDK -> Universal10
 	Target device -> Hololens
 	UWP Build Type -> D3D
-	chech Unit C# Projects** 
-	(image: settings7)
-- Click on the Player Settings -> Other Settings.
-	Check Virtual Reality Supported and Windows Holographic will appear as the default SDK.
-	(image: settings8)
-- Go to Publishing Settings -> Capabilities and check the following:
+	Check Unit C# Projects
+	```
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings7.png">
+</p>
+
+- Click on the **Player Settings -> Other Settings**.
+Check Virtual Reality Supported and Windows Holographic will appear as the default SDK.
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings8.png">
+</p>
+
+- Go to **Publishing Settings -> Capabilities** and check the following:
+	```
 	InternetClient
 	InternetClientServer
 	PrivateNetworkClientServer
 	WebCam
 	SpatialPerception
-- All is set! click Build. In the project's folder create a folder
-	that will contain the project's build and choose that folder. 
-	Wait for the process to happen. 
-	The created folder must be like in the picture below.
-	(image: settings10)
+	```
 	
-Build and Deploy
-- add a cube in the scene and place it where camera can capture
-- build the project
-- open the build folder 
-- find for the  Visual Studio Solution
-	(image: build1)
-- in Visual Studio, in the upper panel do as follows: 
+- All is set! click Build. In the project's folder create a folder
+that will contain the project's build and choose that folder. 
+Wait for the process to happen. 
+The created folder must be like in the picture below.
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/settings10.png">
+</p>
+	
+## Build and Deploy
+- Add a cube in the scene and place it where camera can capture
+- Build the project
+- Open the build folder 
+- Find for the  Visual Studio Solution
+
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/build1.png">
+</p>
+
+- In Visual Studio, in the upper panel do as follows: 
+	```
 	Debug -> Release
 	x64 -> x86 
-	Local Macchine -> Device
-	(image: build2 and build2.1)
-- press CTRL + F5 or press the icon near Device.
+	Local Macchine -> DevicE
+	```
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/build2.1.png">
+</p>
+	
+- press **CTRL + F5** or press the icon near **Device**.
 - In Hololens, a cube will be seen and that is a small Hololens
 application made with Unity,
 
-It is also possible to have Local Machine -> Remote Machine.
-but the hololens' ip address must be provided
+It is also possible to have **Local Machine -> Remote Machine**.
+but the Hololens' Ip address must be provided
 (image: build2.2)
-The Hololens ip address is in 
-Settings -> Network & Internet -> advance option -> ipv4 address
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/integration2.2.png">
+</p>
+
+The Hololens Ip address is in 
+**Settings -> Network & Internet -> advance option -> Ipv4 address**
 
 In the next pages, we will integrate METoolKit and Unity Project.
