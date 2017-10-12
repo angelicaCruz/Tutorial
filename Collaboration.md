@@ -35,6 +35,11 @@ Server_Port = 8848
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/collaboration2.png">
 <img src="https://github.com/angelicaCruz/Tutorial/blob/master/collaboration3.png">
 </p>
+    - If server address is right, you will also see:
+      ```
+      Enter Room Sucessfully
+      UnityEngine.Debug:Log(Object)
+      ```
 
 - Open the MyAppScript. Find COLLABORATION section and add pieces of code as below.
   ```c#
