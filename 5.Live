@@ -32,4 +32,27 @@ Take the Sample project and follow the instructions below.
 - Below is a panel where Live functions are listed. 
 (image live 4)
 
+- Try connecting your Hololens. Don't worry if it won't connect.
+  We will provide you a step by step solution. 
+  As for now it is normal to see what is shown below. 
+  (image live 5 and live 6)
+  
+## Connect your Hololens
+- With your browser, write your Hololens' IP address and go to
+  Hololens portal. Leave it there as we will need it later. 
+- Connect your Hololens to the computer and turn it on. 
+  Notice the changes on your screen. 
+  (image live7)
+- On the panel with **Hololens status**, make sure that Hololens ans 
+  computer are on the same connection(same router).
+  (image live8 and live8.1)
+  
+- Go to the Hololens portal you opened before and find
+  **File Explore**.
+- Select **Local App Data**->**DataMeshLiveAgent**->**LocalState**
+  (image live9)
+- Download the **MEConfig
 
+  
+
+  
