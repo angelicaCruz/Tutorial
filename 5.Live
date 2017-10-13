@@ -1,0 +1,35 @@
+# LIVE!
+
+METoolKit has Live module that provides the following functions:
+- Communicate wiht **DataMeshLiceAgent** of the Hololens to
+  synchronize spatial anchors in real-time.
+- Use of keyboards to adjust the position and angle of the Anchor,
+  if the automatical synchronization failed.
+- Control the upload and download World Anchor from live Agent via
+  the Workstation. 
+- Compose the images captured by the camera with virtual scenes and
+  cast it out.
+- Record the composed video stream as MPEG-4 file with a maximum
+  resolution of 4K.
+
+Take the Sample project and follow the instructions below. 
+- Open the Sample project. 
+- Open  Build Settings.
+- Select **PC,Mac & Linux Standalone** and click Switch Platform. 
+- Open Player Settings -> Other Settings -> Configuration.
+- Under **Scripting Define Symnols** add **ME_LIVE_ACTION**.
+<p align="left">
+<img src="https://github.com/angelicaCruz/Tutorial/blob/master/live1.png">
+</p>
+
+- Press Build. Save the file in the same folder as your project. 
+  You've just created a .exe of your simple project. 
+- Open the file .exe and press **Play!**.
+  You will see a screen with the Sample project on it. 
+(image live2)
+(image live3)
+
+- Below is a panel where Live functions are listed. 
+(image live 4)
+
+
